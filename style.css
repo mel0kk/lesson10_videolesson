@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.logo a {
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+}
+
+a:hover {
+    color: black;
+}
+
+.info_video {
+    border: 1px solid #ccc;
+    background-color: #333;
+    margin: 20px;
+    padding: 1px;
+    width: 560px;
+     
+ }
+
+
+.desc {
+    margin: 10px;
+ }
+
+.video_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
